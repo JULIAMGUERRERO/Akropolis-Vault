@@ -1,0 +1,5 @@
+# Carpeta de Notas Diarias
+
+Esta carpeta almacena tus notas del **diario** (`YYYY-MM-DD.md`), generadas con la plantilla `00PlantillaDiario.md`.
+
+Su contenido es personal y está excluido del repositorio mediante `.gitignore`; solo se conserva esta carpeta vacía para que la estructura quede lista al clonar el proyecto.

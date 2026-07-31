@@ -1,0 +1,54 @@
+# ==============================================================================
+#  .gitignore — Akropolis-Vault
+#  Este repositorio comparte ÚNICAMENTE la arquitectura del sistema
+#  (plantillas, scripts, dashboards y documentación), no el contenido personal.
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+#  Contenido personal (notas privadas — no se publica)
+#  Se conservan las carpetas vacías (.gitkeep) para que la estructura quede
+#  lista al clonar. En 01Cursos se publica además el índice CursosMOC.md.
+# ------------------------------------------------------------------------------
+00Diario/*
+!00Diario/.gitkeep
+
+01Cursos/*
+!01Cursos/.gitkeep
+!01Cursos/CursosMOC.md
+
+# ------------------------------------------------------------------------------
+#  Configuración y datos de Obsidian
+#  IMPORTANTE: contiene datos SENSIBLES como los tokens de acceso
+#  NUNCA!! debe subirse a un repositorio público.
+# ------------------------------------------------------------------------------
+.obsidian/
+.trash/
+
+# ------------------------------------------------------------------------------
+#  Copias de conflicto y archivos temporales de sincronización
+#  (Google Drive Sync genera copias con marca de tiempo, p. ej:
+#   "2026-07-24.md 18-13-21-161.md")
+# ------------------------------------------------------------------------------
+*conflicted copy*
+*conflict*
+* [0-9][0-9]-[0-9][0-9]-[0-9][0-9]-*
+
+# ------------------------------------------------------------------------------
+#  Archivos del sistema operativo
+# ------------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ------------------------------------------------------------------------------
+#  Editores / herramientas (por si acaso)
+# ------------------------------------------------------------------------------
+.vscode/
+.idea/
+node_modules/
+*.log

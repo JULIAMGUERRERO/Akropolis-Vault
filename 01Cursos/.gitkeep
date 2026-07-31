@@ -1,0 +1,5 @@
+# Carpeta de Cursos
+
+Esta carpeta organiza tus **programas de estudio** (cursos padre, subcursos y sus notas), generados con las plantillas de `_Plantillas/`. Puedes crear dentro las subcarpetas que necesites (por ejemplo `Doctorado/`, `Especializaciones_Online/`).
+
+El contenido de estudio es personal y está excluido del repositorio mediante `.gitignore`; solo se conservan esta carpeta y el índice `CursosMOC.md` para que la estructura quede lista al clonar el proyecto.
